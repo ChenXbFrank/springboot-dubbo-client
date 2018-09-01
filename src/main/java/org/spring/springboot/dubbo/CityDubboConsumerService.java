@@ -18,7 +18,6 @@ public class CityDubboConsumerService {
     public City printCity() {
         String cityName="忠县";
         City city = cityDubboService.findCityByName(cityName);
-        System.out.println(city.toString());
         return city;
     }
 }

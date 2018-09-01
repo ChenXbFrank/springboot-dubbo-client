@@ -15,10 +15,12 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class ClientApplication {
 
     public static void main(String[] args) {
+        SpringApplication.run(ClientApplication.class, args);
         // 程序启动入口
         // 启动嵌入式的 Tomcat 并初始化 Spring 环境及其各 Spring 组件
+        /*这里就不需要写了  哈哈
         ConfigurableApplicationContext run = SpringApplication.run(ClientApplication.class, args);
         CityDubboConsumerService cityService = run.getBean(CityDubboConsumerService.class);
-        System.out.println(cityService);
+        System.out.println(cityService);*/
     }
 }
