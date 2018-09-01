@@ -1,7 +1,7 @@
 package org.spring.springboot.controller;
 
 import org.spring.springboot.domain.City;
-import org.spring.springboot.dubbo.CityDubboConsumerService;
+import org.spring.springboot.dubbo.impl.CityDubboConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

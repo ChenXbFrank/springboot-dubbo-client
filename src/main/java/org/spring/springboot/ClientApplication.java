@@ -1,9 +1,7 @@
 package org.spring.springboot;
 
-import org.spring.springboot.dubbo.CityDubboConsumerService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Spring Boot 应用启动类
